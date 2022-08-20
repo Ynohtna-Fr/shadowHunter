@@ -1,0 +1,1790 @@
+{
+    "all": [
+        {
+            "name": "Allie",
+            "team": "neutral",
+            "image": "base/allie.webp",
+            "imageFallbacks": "base/allie.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Bob",
+            "team": "neutral",
+            "image": "base/bob.webp",
+            "imageFallbacks": "base/bob.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Charles",
+            "team": "neutral",
+            "image": "base/charles.webp",
+            "imageFallbacks": "base/charles.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Daniel",
+            "team": "neutral",
+            "image": "base/daniel.webp",
+            "imageFallbacks": "base/daniel.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Ellen",
+            "team": "hunter",
+            "image": "base/ellen.webp",
+            "imageFallbacks": "base/ellen.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Emi",
+            "team": "hunter",
+            "image": "base/emi.webp",
+            "imageFallbacks": "base/emi.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Franklin",
+            "team": "hunter",
+            "image": "base/franklin.webp",
+            "imageFallbacks": "base/franklin.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Georges",
+            "team": "hunter",
+            "image": "base/georges.webp",
+            "imageFallbacks": "base/georges.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Loup Garou",
+            "team": "shadow",
+            "image": "base/loup-garou.webp",
+            "imageFallbacks": "base/loup-garou.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Metamorphe",
+            "team": "shadow",
+            "image": "base/metamorphe.webp",
+            "imageFallbacks": "base/metamorphe.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Vampire",
+            "team": "shadow",
+            "image": "base/vampire.webp",
+            "imageFallbacks": "base/vampire.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Aaron",
+            "team": "neutral",
+            "image": "battle_tested_en/aaron.webp",
+            "imageFallbacks": "battle_tested_en/aaron.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "April&skipps",
+            "team": "neutral",
+            "image": "battle_tested_en/april&skipps.webp",
+            "imageFallbacks": "battle_tested_en/april&skipps.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Arlene",
+            "team": "neutral",
+            "image": "battle_tested_en/arlene.webp",
+            "imageFallbacks": "battle_tested_en/arlene.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Bianca",
+            "team": "neutral",
+            "image": "battle_tested_en/bianca.webp",
+            "imageFallbacks": "battle_tested_en/bianca.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Bonnie",
+            "team": "neutral",
+            "image": "battle_tested_en/bonnie.webp",
+            "imageFallbacks": "battle_tested_en/bonnie.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Byron",
+            "team": "neutral",
+            "image": "battle_tested_en/byron.webp",
+            "imageFallbacks": "battle_tested_en/byron.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Cain",
+            "team": "neutral",
+            "image": "battle_tested_en/cain.webp",
+            "imageFallbacks": "battle_tested_en/cain.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Colt",
+            "team": "neutral",
+            "image": "battle_tested_en/colt.webp",
+            "imageFallbacks": "battle_tested_en/colt.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Cruz",
+            "team": "neutral",
+            "image": "battle_tested_en/cruz.webp",
+            "imageFallbacks": "battle_tested_en/cruz.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Dalton",
+            "team": "neutral",
+            "image": "battle_tested_en/dalton.webp",
+            "imageFallbacks": "battle_tested_en/dalton.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Dianna",
+            "team": "neutral",
+            "image": "battle_tested_en/dianna.webp",
+            "imageFallbacks": "battle_tested_en/dianna.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "DncSoldier",
+            "team": "neutral",
+            "image": "battle_tested_en/dncSoldier.webp",
+            "imageFallbacks": "battle_tested_en/dncSoldier.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Eleanor",
+            "team": "hunter",
+            "image": "battle_tested_en/eleanor.webp",
+            "imageFallbacks": "battle_tested_en/eleanor.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Elise",
+            "team": "hunter",
+            "image": "battle_tested_en/elise.webp",
+            "imageFallbacks": "battle_tested_en/elise.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "FatherHarrison",
+            "team": "hunter",
+            "image": "battle_tested_en/fatherHarrison.webp",
+            "imageFallbacks": "battle_tested_en/fatherHarrison.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Fiona",
+            "team": "hunter",
+            "image": "battle_tested_en/fiona.webp",
+            "imageFallbacks": "battle_tested_en/fiona.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Freyja",
+            "team": "hunter",
+            "image": "battle_tested_en/freyja.webp",
+            "imageFallbacks": "battle_tested_en/freyja.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Fukiko",
+            "team": "hunter",
+            "image": "battle_tested_en/fukiko.webp",
+            "imageFallbacks": "battle_tested_en/fukiko.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "G43",
+            "team": "hunter",
+            "image": "battle_tested_en/g43.webp",
+            "imageFallbacks": "battle_tested_en/g43.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Gideon",
+            "team": "hunter",
+            "image": "battle_tested_en/gideon.webp",
+            "imageFallbacks": "battle_tested_en/gideon.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Gloria",
+            "team": "hunter",
+            "image": "battle_tested_en/gloria.webp",
+            "imageFallbacks": "battle_tested_en/gloria.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Umibozu",
+            "team": "shadow",
+            "image": "battle_tested_en/umibozu.webp",
+            "imageFallbacks": "battle_tested_en/umibozu.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Unchained",
+            "team": "shadow",
+            "image": "battle_tested_en/unchained.webp",
+            "imageFallbacks": "battle_tested_en/unchained.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "UrbanLegend",
+            "team": "shadow",
+            "image": "battle_tested_en/urbanLegend.webp",
+            "imageFallbacks": "battle_tested_en/urbanLegend.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Usurper",
+            "team": "shadow",
+            "image": "battle_tested_en/usurper.webp",
+            "imageFallbacks": "battle_tested_en/usurper.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Vision",
+            "team": "shadow",
+            "image": "battle_tested_en/vision.webp",
+            "imageFallbacks": "battle_tested_en/vision.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Warlock",
+            "team": "shadow",
+            "image": "battle_tested_en/warlock.webp",
+            "imageFallbacks": "battle_tested_en/warlock.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Warlord",
+            "team": "shadow",
+            "image": "battle_tested_en/warlord.webp",
+            "imageFallbacks": "battle_tested_en/warlord.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Witch",
+            "team": "shadow",
+            "image": "battle_tested_en/witch.webp",
+            "imageFallbacks": "battle_tested_en/witch.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Wyvern",
+            "team": "shadow",
+            "image": "battle_tested_en/wyvern.webp",
+            "imageFallbacks": "battle_tested_en/wyvern.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Agnes",
+            "team": "neutral",
+            "image": "custom_git_fr/agnes.webp",
+            "imageFallbacks": "custom_git_fr/agnes.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Aiba",
+            "team": "neutral",
+            "image": "custom_git_fr/aiba.webp",
+            "imageFallbacks": "custom_git_fr/aiba.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Airy",
+            "team": "neutral",
+            "image": "custom_git_fr/airy.webp",
+            "imageFallbacks": "custom_git_fr/airy.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Akemi Homura",
+            "team": "neutral",
+            "image": "custom_git_fr/akemi-homura.webp",
+            "imageFallbacks": "custom_git_fr/akemi-homura.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Alipheese",
+            "team": "neutral",
+            "image": "custom_git_fr/alipheese.webp",
+            "imageFallbacks": "custom_git_fr/alipheese.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Anis",
+            "team": "neutral",
+            "image": "custom_git_fr/anis.webp",
+            "imageFallbacks": "custom_git_fr/anis.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Aqua",
+            "team": "neutral",
+            "image": "custom_git_fr/aqua.webp",
+            "imageFallbacks": "custom_git_fr/aqua.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Arash",
+            "team": "neutral",
+            "image": "custom_git_fr/arash.webp",
+            "imageFallbacks": "custom_git_fr/arash.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Asuka",
+            "team": "neutral",
+            "image": "custom_git_fr/asuka.webp",
+            "imageFallbacks": "custom_git_fr/asuka.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Bakalawak",
+            "team": "neutral",
+            "image": "custom_git_fr/bakalawak.webp",
+            "imageFallbacks": "custom_git_fr/bakalawak.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Batou",
+            "team": "neutral",
+            "image": "custom_git_fr/batou.webp",
+            "imageFallbacks": "custom_git_fr/batou.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Battler",
+            "team": "neutral",
+            "image": "custom_git_fr/battler.webp",
+            "imageFallbacks": "custom_git_fr/battler.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Bb",
+            "team": "neutral",
+            "image": "custom_git_fr/bb.webp",
+            "imageFallbacks": "custom_git_fr/bb.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Beatrice",
+            "team": "neutral",
+            "image": "custom_git_fr/beatrice.webp",
+            "imageFallbacks": "custom_git_fr/beatrice.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Bryan",
+            "team": "neutral",
+            "image": "custom_git_fr/bryan.webp",
+            "imageFallbacks": "custom_git_fr/bryan.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Bucciarati",
+            "team": "neutral",
+            "image": "custom_git_fr/bucciarati.webp",
+            "imageFallbacks": "custom_git_fr/bucciarati.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Catherine",
+            "team": "neutral",
+            "image": "custom_git_fr/catherine.webp",
+            "imageFallbacks": "custom_git_fr/catherine.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Cc",
+            "team": "neutral",
+            "image": "custom_git_fr/cc.webp",
+            "imageFallbacks": "custom_git_fr/cc.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Celeste",
+            "team": "neutral",
+            "image": "custom_git_fr/celeste.webp",
+            "imageFallbacks": "custom_git_fr/celeste.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Chika",
+            "team": "neutral",
+            "image": "custom_git_fr/chika.webp",
+            "imageFallbacks": "custom_git_fr/chika.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Ciri",
+            "team": "neutral",
+            "image": "custom_git_fr/ciri.webp",
+            "imageFallbacks": "custom_git_fr/ciri.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Claude",
+            "team": "neutral",
+            "image": "custom_git_fr/claude.webp",
+            "imageFallbacks": "custom_git_fr/claude.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Corentin",
+            "team": "neutral",
+            "image": "custom_git_fr/corentin.webp",
+            "imageFallbacks": "custom_git_fr/corentin.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Curisutima",
+            "team": "neutral",
+            "image": "custom_git_fr/curisutima.webp",
+            "imageFallbacks": "custom_git_fr/curisutima.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Darckoune",
+            "team": "neutral",
+            "image": "custom_git_fr/darckoune.webp",
+            "imageFallbacks": "custom_git_fr/darckoune.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Darkness",
+            "team": "neutral",
+            "image": "custom_git_fr/darkness.webp",
+            "imageFallbacks": "custom_git_fr/darkness.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "David",
+            "team": "neutral",
+            "image": "custom_git_fr/david.webp",
+            "imageFallbacks": "custom_git_fr/david.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Decim",
+            "team": "neutral",
+            "image": "custom_git_fr/decim.webp",
+            "imageFallbacks": "custom_git_fr/decim.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Diana",
+            "team": "neutral",
+            "image": "custom_git_fr/diana.webp",
+            "imageFallbacks": "custom_git_fr/diana.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Dio",
+            "team": "neutral",
+            "image": "custom_git_fr/dio.webp",
+            "imageFallbacks": "custom_git_fr/dio.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Dlanor",
+            "team": "neutral",
+            "image": "custom_git_fr/dlanor.webp",
+            "imageFallbacks": "custom_git_fr/dlanor.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Doppio",
+            "team": "neutral",
+            "image": "custom_git_fr/doppio.webp",
+            "imageFallbacks": "custom_git_fr/doppio.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Earthling",
+            "team": "hunter",
+            "image": "custom_git_fr/earthling.webp",
+            "imageFallbacks": "custom_git_fr/earthling.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Edgeworth",
+            "team": "hunter",
+            "image": "custom_git_fr/edgeworth.webp",
+            "imageFallbacks": "custom_git_fr/edgeworth.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Elincia",
+            "team": "hunter",
+            "image": "custom_git_fr/elincia.webp",
+            "imageFallbacks": "custom_git_fr/elincia.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Emma",
+            "team": "hunter",
+            "image": "custom_git_fr/emma.webp",
+            "imageFallbacks": "custom_git_fr/emma.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Erika",
+            "team": "hunter",
+            "image": "custom_git_fr/erika.webp",
+            "imageFallbacks": "custom_git_fr/erika.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Eva",
+            "team": "hunter",
+            "image": "custom_git_fr/eva.webp",
+            "imageFallbacks": "custom_git_fr/eva.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Fai",
+            "team": "hunter",
+            "image": "custom_git_fr/fai.webp",
+            "imageFallbacks": "custom_git_fr/fai.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Faust",
+            "team": "hunter",
+            "image": "custom_git_fr/faust.webp",
+            "imageFallbacks": "custom_git_fr/faust.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Faye",
+            "team": "hunter",
+            "image": "custom_git_fr/faye.webp",
+            "imageFallbacks": "custom_git_fr/faye.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Fiora",
+            "team": "hunter",
+            "image": "custom_git_fr/fiora.webp",
+            "imageFallbacks": "custom_git_fr/fiora.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Fosphophillite",
+            "team": "hunter",
+            "image": "custom_git_fr/fosphophillite.webp",
+            "imageFallbacks": "custom_git_fr/fosphophillite.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Fu Ka",
+            "team": "hunter",
+            "image": "custom_git_fr/fu-ka.webp",
+            "imageFallbacks": "custom_git_fr/fu-ka.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Fugo",
+            "team": "hunter",
+            "image": "custom_git_fr/fugo.webp",
+            "imageFallbacks": "custom_git_fr/fugo.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Geralt",
+            "team": "hunter",
+            "image": "custom_git_fr/geralt.webp",
+            "imageFallbacks": "custom_git_fr/geralt.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Gilugamesh",
+            "team": "hunter",
+            "image": "custom_git_fr/gilugamesh.webp",
+            "imageFallbacks": "custom_git_fr/gilugamesh.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Ginoza",
+            "team": "hunter",
+            "image": "custom_git_fr/ginoza.webp",
+            "imageFallbacks": "custom_git_fr/ginoza.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Gintoki",
+            "team": "hunter",
+            "image": "custom_git_fr/gintoki.webp",
+            "imageFallbacks": "custom_git_fr/gintoki.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Giorno",
+            "team": "hunter",
+            "image": "custom_git_fr/giorno.webp",
+            "imageFallbacks": "custom_git_fr/giorno.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Gregor",
+            "team": "hunter",
+            "image": "custom_git_fr/gregor.webp",
+            "imageFallbacks": "custom_git_fr/gregor.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Guts",
+            "team": "hunter",
+            "image": "custom_git_fr/guts.webp",
+            "imageFallbacks": "custom_git_fr/guts.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Lain",
+            "team": "shadow",
+            "image": "custom_git_fr/lain.webp",
+            "imageFallbacks": "custom_git_fr/lain.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Lambdadelta",
+            "team": "shadow",
+            "image": "custom_git_fr/lambdadelta.webp",
+            "imageFallbacks": "custom_git_fr/lambdadelta.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Liche",
+            "team": "shadow",
+            "image": "custom_git_fr/liche.webp",
+            "imageFallbacks": "custom_git_fr/liche.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Light",
+            "team": "shadow",
+            "image": "custom_git_fr/light.webp",
+            "imageFallbacks": "custom_git_fr/light.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Lilith",
+            "team": "shadow",
+            "image": "custom_git_fr/lilith.webp",
+            "imageFallbacks": "custom_git_fr/lilith.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Lonove",
+            "team": "shadow",
+            "image": "custom_git_fr/lonove.webp",
+            "imageFallbacks": "custom_git_fr/lonove.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Lucille",
+            "team": "shadow",
+            "image": "custom_git_fr/lucille.webp",
+            "imageFallbacks": "custom_git_fr/lucille.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Major",
+            "team": "shadow",
+            "image": "custom_git_fr/major.webp",
+            "imageFallbacks": "custom_git_fr/major.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Maria",
+            "team": "shadow",
+            "image": "custom_git_fr/maria.webp",
+            "imageFallbacks": "custom_git_fr/maria.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Masochiste",
+            "team": "shadow",
+            "image": "custom_git_fr/masochiste.webp",
+            "imageFallbacks": "custom_git_fr/masochiste.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Master Of Salt",
+            "team": "shadow",
+            "image": "custom_git_fr/master-of-salt.webp",
+            "imageFallbacks": "custom_git_fr/master-of-salt.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Momie",
+            "team": "shadow",
+            "image": "custom_git_fr/momie.webp",
+            "imageFallbacks": "custom_git_fr/momie.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Monika",
+            "team": "shadow",
+            "image": "custom_git_fr/monika.webp",
+            "imageFallbacks": "custom_git_fr/monika.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Monokuma",
+            "team": "shadow",
+            "image": "custom_git_fr/monokuma.webp",
+            "imageFallbacks": "custom_git_fr/monokuma.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Muzan",
+            "team": "shadow",
+            "image": "custom_git_fr/muzan.webp",
+            "imageFallbacks": "custom_git_fr/muzan.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Valkyrie",
+            "team": "shadow",
+            "image": "custom_git_fr/valkyrie.webp",
+            "imageFallbacks": "custom_git_fr/valkyrie.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Vanilla Ice",
+            "team": "shadow",
+            "image": "custom_git_fr/vanilla-ice.webp",
+            "imageFallbacks": "custom_git_fr/vanilla-ice.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Velvet",
+            "team": "shadow",
+            "image": "custom_git_fr/velvet.webp",
+            "imageFallbacks": "custom_git_fr/velvet.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Vicious",
+            "team": "shadow",
+            "image": "custom_git_fr/vicious.webp",
+            "imageFallbacks": "custom_git_fr/vicious.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Vincent Zero",
+            "team": "shadow",
+            "image": "custom_git_fr/vincent-zero.webp",
+            "imageFallbacks": "custom_git_fr/vincent-zero.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Vincent",
+            "team": "shadow",
+            "image": "custom_git_fr/vincent.webp",
+            "imageFallbacks": "custom_git_fr/vincent-zero.jpg,vincent.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Virgilia",
+            "team": "shadow",
+            "image": "custom_git_fr/virgilia.webp",
+            "imageFallbacks": "custom_git_fr/virgilia.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Vouivre",
+            "team": "shadow",
+            "image": "custom_git_fr/vouivre.webp",
+            "imageFallbacks": "custom_git_fr/vouivre.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Afanny",
+            "team": "neutral",
+            "image": "frakass/afanny.webp",
+            "imageFallbacks": "frakass/afanny.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Ajoel",
+            "team": "neutral",
+            "image": "frakass/ajoel.webp",
+            "imageFallbacks": "frakass/ajoel.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Aquentin",
+            "team": "neutral",
+            "image": "frakass/aquentin.webp",
+            "imageFallbacks": "frakass/aquentin.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Asolene",
+            "team": "neutral",
+            "image": "frakass/asolene.webp",
+            "imageFallbacks": "frakass/asolene.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Athomas",
+            "team": "neutral",
+            "image": "frakass/athomas.webp",
+            "imageFallbacks": "frakass/athomas.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Eantho",
+            "team": "hunter",
+            "image": "frakass/eantho.webp",
+            "imageFallbacks": "frakass/eantho.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Ejulie",
+            "team": "hunter",
+            "image": "frakass/ejulie.webp",
+            "imageFallbacks": "frakass/ejulie.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Etheo",
+            "team": "hunter",
+            "image": "frakass/etheo.webp",
+            "imageFallbacks": "frakass/etheo.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Lilou",
+            "team": "shadow",
+            "image": "frakass/lilou.webp",
+            "imageFallbacks": "frakass/lilou.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Lya",
+            "team": "shadow",
+            "image": "frakass/lya.webp",
+            "imageFallbacks": "frakass/lya.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Mrobs",
+            "team": "shadow",
+            "image": "frakass/mrobs.webp",
+            "imageFallbacks": "frakass/mrobs.jpg",
+            "deck": "frakass"
+        }
+    ],
+    "base": [
+        {
+            "name": "Allie",
+            "team": "neutral",
+            "image": "base/allie.webp",
+            "imageFallbacks": "base/allie.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Bob",
+            "team": "neutral",
+            "image": "base/bob.webp",
+            "imageFallbacks": "base/bob.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Charles",
+            "team": "neutral",
+            "image": "base/charles.webp",
+            "imageFallbacks": "base/charles.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Daniel",
+            "team": "neutral",
+            "image": "base/daniel.webp",
+            "imageFallbacks": "base/daniel.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Ellen",
+            "team": "hunter",
+            "image": "base/ellen.webp",
+            "imageFallbacks": "base/ellen.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Emi",
+            "team": "hunter",
+            "image": "base/emi.webp",
+            "imageFallbacks": "base/emi.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Franklin",
+            "team": "hunter",
+            "image": "base/franklin.webp",
+            "imageFallbacks": "base/franklin.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Georges",
+            "team": "hunter",
+            "image": "base/georges.webp",
+            "imageFallbacks": "base/georges.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Loup Garou",
+            "team": "shadow",
+            "image": "base/loup-garou.webp",
+            "imageFallbacks": "base/loup-garou.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Metamorphe",
+            "team": "shadow",
+            "image": "base/metamorphe.webp",
+            "imageFallbacks": "base/metamorphe.jpg",
+            "deck": "base"
+        },
+        {
+            "name": "Vampire",
+            "team": "shadow",
+            "image": "base/vampire.webp",
+            "imageFallbacks": "base/vampire.jpg",
+            "deck": "base"
+        }
+    ],
+    "battle_tested_en": [
+        {
+            "name": "Aaron",
+            "team": "neutral",
+            "image": "battle_tested_en/aaron.webp",
+            "imageFallbacks": "battle_tested_en/aaron.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "April&skipps",
+            "team": "neutral",
+            "image": "battle_tested_en/april&skipps.webp",
+            "imageFallbacks": "battle_tested_en/april&skipps.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Arlene",
+            "team": "neutral",
+            "image": "battle_tested_en/arlene.webp",
+            "imageFallbacks": "battle_tested_en/arlene.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Bianca",
+            "team": "neutral",
+            "image": "battle_tested_en/bianca.webp",
+            "imageFallbacks": "battle_tested_en/bianca.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Bonnie",
+            "team": "neutral",
+            "image": "battle_tested_en/bonnie.webp",
+            "imageFallbacks": "battle_tested_en/bonnie.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Byron",
+            "team": "neutral",
+            "image": "battle_tested_en/byron.webp",
+            "imageFallbacks": "battle_tested_en/byron.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Cain",
+            "team": "neutral",
+            "image": "battle_tested_en/cain.webp",
+            "imageFallbacks": "battle_tested_en/cain.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Colt",
+            "team": "neutral",
+            "image": "battle_tested_en/colt.webp",
+            "imageFallbacks": "battle_tested_en/colt.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Cruz",
+            "team": "neutral",
+            "image": "battle_tested_en/cruz.webp",
+            "imageFallbacks": "battle_tested_en/cruz.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Dalton",
+            "team": "neutral",
+            "image": "battle_tested_en/dalton.webp",
+            "imageFallbacks": "battle_tested_en/dalton.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Dianna",
+            "team": "neutral",
+            "image": "battle_tested_en/dianna.webp",
+            "imageFallbacks": "battle_tested_en/dianna.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "DncSoldier",
+            "team": "neutral",
+            "image": "battle_tested_en/dncSoldier.webp",
+            "imageFallbacks": "battle_tested_en/dncSoldier.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Eleanor",
+            "team": "hunter",
+            "image": "battle_tested_en/eleanor.webp",
+            "imageFallbacks": "battle_tested_en/eleanor.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Elise",
+            "team": "hunter",
+            "image": "battle_tested_en/elise.webp",
+            "imageFallbacks": "battle_tested_en/elise.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "FatherHarrison",
+            "team": "hunter",
+            "image": "battle_tested_en/fatherHarrison.webp",
+            "imageFallbacks": "battle_tested_en/fatherHarrison.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Fiona",
+            "team": "hunter",
+            "image": "battle_tested_en/fiona.webp",
+            "imageFallbacks": "battle_tested_en/fiona.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Freyja",
+            "team": "hunter",
+            "image": "battle_tested_en/freyja.webp",
+            "imageFallbacks": "battle_tested_en/freyja.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Fukiko",
+            "team": "hunter",
+            "image": "battle_tested_en/fukiko.webp",
+            "imageFallbacks": "battle_tested_en/fukiko.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "G43",
+            "team": "hunter",
+            "image": "battle_tested_en/g43.webp",
+            "imageFallbacks": "battle_tested_en/g43.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Gideon",
+            "team": "hunter",
+            "image": "battle_tested_en/gideon.webp",
+            "imageFallbacks": "battle_tested_en/gideon.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Gloria",
+            "team": "hunter",
+            "image": "battle_tested_en/gloria.webp",
+            "imageFallbacks": "battle_tested_en/gloria.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Umibozu",
+            "team": "shadow",
+            "image": "battle_tested_en/umibozu.webp",
+            "imageFallbacks": "battle_tested_en/umibozu.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Unchained",
+            "team": "shadow",
+            "image": "battle_tested_en/unchained.webp",
+            "imageFallbacks": "battle_tested_en/unchained.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "UrbanLegend",
+            "team": "shadow",
+            "image": "battle_tested_en/urbanLegend.webp",
+            "imageFallbacks": "battle_tested_en/urbanLegend.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Usurper",
+            "team": "shadow",
+            "image": "battle_tested_en/usurper.webp",
+            "imageFallbacks": "battle_tested_en/usurper.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Vision",
+            "team": "shadow",
+            "image": "battle_tested_en/vision.webp",
+            "imageFallbacks": "battle_tested_en/vision.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Warlock",
+            "team": "shadow",
+            "image": "battle_tested_en/warlock.webp",
+            "imageFallbacks": "battle_tested_en/warlock.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Warlord",
+            "team": "shadow",
+            "image": "battle_tested_en/warlord.webp",
+            "imageFallbacks": "battle_tested_en/warlord.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Witch",
+            "team": "shadow",
+            "image": "battle_tested_en/witch.webp",
+            "imageFallbacks": "battle_tested_en/witch.jpg",
+            "deck": "battle_tested_en"
+        },
+        {
+            "name": "Wyvern",
+            "team": "shadow",
+            "image": "battle_tested_en/wyvern.webp",
+            "imageFallbacks": "battle_tested_en/wyvern.jpg",
+            "deck": "battle_tested_en"
+        }
+    ],
+    "custom_git_fr": [
+        {
+            "name": "Agnes",
+            "team": "neutral",
+            "image": "custom_git_fr/agnes.webp",
+            "imageFallbacks": "custom_git_fr/agnes.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Aiba",
+            "team": "neutral",
+            "image": "custom_git_fr/aiba.webp",
+            "imageFallbacks": "custom_git_fr/aiba.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Airy",
+            "team": "neutral",
+            "image": "custom_git_fr/airy.webp",
+            "imageFallbacks": "custom_git_fr/airy.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Akemi Homura",
+            "team": "neutral",
+            "image": "custom_git_fr/akemi-homura.webp",
+            "imageFallbacks": "custom_git_fr/akemi-homura.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Alipheese",
+            "team": "neutral",
+            "image": "custom_git_fr/alipheese.webp",
+            "imageFallbacks": "custom_git_fr/alipheese.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Anis",
+            "team": "neutral",
+            "image": "custom_git_fr/anis.webp",
+            "imageFallbacks": "custom_git_fr/anis.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Aqua",
+            "team": "neutral",
+            "image": "custom_git_fr/aqua.webp",
+            "imageFallbacks": "custom_git_fr/aqua.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Arash",
+            "team": "neutral",
+            "image": "custom_git_fr/arash.webp",
+            "imageFallbacks": "custom_git_fr/arash.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Asuka",
+            "team": "neutral",
+            "image": "custom_git_fr/asuka.webp",
+            "imageFallbacks": "custom_git_fr/asuka.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Bakalawak",
+            "team": "neutral",
+            "image": "custom_git_fr/bakalawak.webp",
+            "imageFallbacks": "custom_git_fr/bakalawak.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Batou",
+            "team": "neutral",
+            "image": "custom_git_fr/batou.webp",
+            "imageFallbacks": "custom_git_fr/batou.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Battler",
+            "team": "neutral",
+            "image": "custom_git_fr/battler.webp",
+            "imageFallbacks": "custom_git_fr/battler.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Bb",
+            "team": "neutral",
+            "image": "custom_git_fr/bb.webp",
+            "imageFallbacks": "custom_git_fr/bb.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Beatrice",
+            "team": "neutral",
+            "image": "custom_git_fr/beatrice.webp",
+            "imageFallbacks": "custom_git_fr/beatrice.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Bryan",
+            "team": "neutral",
+            "image": "custom_git_fr/bryan.webp",
+            "imageFallbacks": "custom_git_fr/bryan.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Bucciarati",
+            "team": "neutral",
+            "image": "custom_git_fr/bucciarati.webp",
+            "imageFallbacks": "custom_git_fr/bucciarati.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Catherine",
+            "team": "neutral",
+            "image": "custom_git_fr/catherine.webp",
+            "imageFallbacks": "custom_git_fr/catherine.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Cc",
+            "team": "neutral",
+            "image": "custom_git_fr/cc.webp",
+            "imageFallbacks": "custom_git_fr/cc.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Celeste",
+            "team": "neutral",
+            "image": "custom_git_fr/celeste.webp",
+            "imageFallbacks": "custom_git_fr/celeste.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Chika",
+            "team": "neutral",
+            "image": "custom_git_fr/chika.webp",
+            "imageFallbacks": "custom_git_fr/chika.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Ciri",
+            "team": "neutral",
+            "image": "custom_git_fr/ciri.webp",
+            "imageFallbacks": "custom_git_fr/ciri.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Claude",
+            "team": "neutral",
+            "image": "custom_git_fr/claude.webp",
+            "imageFallbacks": "custom_git_fr/claude.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Corentin",
+            "team": "neutral",
+            "image": "custom_git_fr/corentin.webp",
+            "imageFallbacks": "custom_git_fr/corentin.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Curisutima",
+            "team": "neutral",
+            "image": "custom_git_fr/curisutima.webp",
+            "imageFallbacks": "custom_git_fr/curisutima.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Darckoune",
+            "team": "neutral",
+            "image": "custom_git_fr/darckoune.webp",
+            "imageFallbacks": "custom_git_fr/darckoune.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Darkness",
+            "team": "neutral",
+            "image": "custom_git_fr/darkness.webp",
+            "imageFallbacks": "custom_git_fr/darkness.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "David",
+            "team": "neutral",
+            "image": "custom_git_fr/david.webp",
+            "imageFallbacks": "custom_git_fr/david.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Decim",
+            "team": "neutral",
+            "image": "custom_git_fr/decim.webp",
+            "imageFallbacks": "custom_git_fr/decim.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Diana",
+            "team": "neutral",
+            "image": "custom_git_fr/diana.webp",
+            "imageFallbacks": "custom_git_fr/diana.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Dio",
+            "team": "neutral",
+            "image": "custom_git_fr/dio.webp",
+            "imageFallbacks": "custom_git_fr/dio.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Dlanor",
+            "team": "neutral",
+            "image": "custom_git_fr/dlanor.webp",
+            "imageFallbacks": "custom_git_fr/dlanor.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Doppio",
+            "team": "neutral",
+            "image": "custom_git_fr/doppio.webp",
+            "imageFallbacks": "custom_git_fr/doppio.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Earthling",
+            "team": "hunter",
+            "image": "custom_git_fr/earthling.webp",
+            "imageFallbacks": "custom_git_fr/earthling.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Edgeworth",
+            "team": "hunter",
+            "image": "custom_git_fr/edgeworth.webp",
+            "imageFallbacks": "custom_git_fr/edgeworth.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Elincia",
+            "team": "hunter",
+            "image": "custom_git_fr/elincia.webp",
+            "imageFallbacks": "custom_git_fr/elincia.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Emma",
+            "team": "hunter",
+            "image": "custom_git_fr/emma.webp",
+            "imageFallbacks": "custom_git_fr/emma.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Erika",
+            "team": "hunter",
+            "image": "custom_git_fr/erika.webp",
+            "imageFallbacks": "custom_git_fr/erika.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Eva",
+            "team": "hunter",
+            "image": "custom_git_fr/eva.webp",
+            "imageFallbacks": "custom_git_fr/eva.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Fai",
+            "team": "hunter",
+            "image": "custom_git_fr/fai.webp",
+            "imageFallbacks": "custom_git_fr/fai.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Faust",
+            "team": "hunter",
+            "image": "custom_git_fr/faust.webp",
+            "imageFallbacks": "custom_git_fr/faust.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Faye",
+            "team": "hunter",
+            "image": "custom_git_fr/faye.webp",
+            "imageFallbacks": "custom_git_fr/faye.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Fiora",
+            "team": "hunter",
+            "image": "custom_git_fr/fiora.webp",
+            "imageFallbacks": "custom_git_fr/fiora.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Fosphophillite",
+            "team": "hunter",
+            "image": "custom_git_fr/fosphophillite.webp",
+            "imageFallbacks": "custom_git_fr/fosphophillite.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Fu Ka",
+            "team": "hunter",
+            "image": "custom_git_fr/fu-ka.webp",
+            "imageFallbacks": "custom_git_fr/fu-ka.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Fugo",
+            "team": "hunter",
+            "image": "custom_git_fr/fugo.webp",
+            "imageFallbacks": "custom_git_fr/fugo.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Geralt",
+            "team": "hunter",
+            "image": "custom_git_fr/geralt.webp",
+            "imageFallbacks": "custom_git_fr/geralt.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Gilugamesh",
+            "team": "hunter",
+            "image": "custom_git_fr/gilugamesh.webp",
+            "imageFallbacks": "custom_git_fr/gilugamesh.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Ginoza",
+            "team": "hunter",
+            "image": "custom_git_fr/ginoza.webp",
+            "imageFallbacks": "custom_git_fr/ginoza.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Gintoki",
+            "team": "hunter",
+            "image": "custom_git_fr/gintoki.webp",
+            "imageFallbacks": "custom_git_fr/gintoki.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Giorno",
+            "team": "hunter",
+            "image": "custom_git_fr/giorno.webp",
+            "imageFallbacks": "custom_git_fr/giorno.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Gregor",
+            "team": "hunter",
+            "image": "custom_git_fr/gregor.webp",
+            "imageFallbacks": "custom_git_fr/gregor.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Guts",
+            "team": "hunter",
+            "image": "custom_git_fr/guts.webp",
+            "imageFallbacks": "custom_git_fr/guts.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Lain",
+            "team": "shadow",
+            "image": "custom_git_fr/lain.webp",
+            "imageFallbacks": "custom_git_fr/lain.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Lambdadelta",
+            "team": "shadow",
+            "image": "custom_git_fr/lambdadelta.webp",
+            "imageFallbacks": "custom_git_fr/lambdadelta.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Liche",
+            "team": "shadow",
+            "image": "custom_git_fr/liche.webp",
+            "imageFallbacks": "custom_git_fr/liche.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Light",
+            "team": "shadow",
+            "image": "custom_git_fr/light.webp",
+            "imageFallbacks": "custom_git_fr/light.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Lilith",
+            "team": "shadow",
+            "image": "custom_git_fr/lilith.webp",
+            "imageFallbacks": "custom_git_fr/lilith.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Lonove",
+            "team": "shadow",
+            "image": "custom_git_fr/lonove.webp",
+            "imageFallbacks": "custom_git_fr/lonove.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Lucille",
+            "team": "shadow",
+            "image": "custom_git_fr/lucille.webp",
+            "imageFallbacks": "custom_git_fr/lucille.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Major",
+            "team": "shadow",
+            "image": "custom_git_fr/major.webp",
+            "imageFallbacks": "custom_git_fr/major.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Maria",
+            "team": "shadow",
+            "image": "custom_git_fr/maria.webp",
+            "imageFallbacks": "custom_git_fr/maria.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Masochiste",
+            "team": "shadow",
+            "image": "custom_git_fr/masochiste.webp",
+            "imageFallbacks": "custom_git_fr/masochiste.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Master Of Salt",
+            "team": "shadow",
+            "image": "custom_git_fr/master-of-salt.webp",
+            "imageFallbacks": "custom_git_fr/master-of-salt.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Momie",
+            "team": "shadow",
+            "image": "custom_git_fr/momie.webp",
+            "imageFallbacks": "custom_git_fr/momie.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Monika",
+            "team": "shadow",
+            "image": "custom_git_fr/monika.webp",
+            "imageFallbacks": "custom_git_fr/monika.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Monokuma",
+            "team": "shadow",
+            "image": "custom_git_fr/monokuma.webp",
+            "imageFallbacks": "custom_git_fr/monokuma.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Muzan",
+            "team": "shadow",
+            "image": "custom_git_fr/muzan.webp",
+            "imageFallbacks": "custom_git_fr/muzan.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Valkyrie",
+            "team": "shadow",
+            "image": "custom_git_fr/valkyrie.webp",
+            "imageFallbacks": "custom_git_fr/valkyrie.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Vanilla Ice",
+            "team": "shadow",
+            "image": "custom_git_fr/vanilla-ice.webp",
+            "imageFallbacks": "custom_git_fr/vanilla-ice.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Velvet",
+            "team": "shadow",
+            "image": "custom_git_fr/velvet.webp",
+            "imageFallbacks": "custom_git_fr/velvet.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Vicious",
+            "team": "shadow",
+            "image": "custom_git_fr/vicious.webp",
+            "imageFallbacks": "custom_git_fr/vicious.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Vincent Zero",
+            "team": "shadow",
+            "image": "custom_git_fr/vincent-zero.webp",
+            "imageFallbacks": "custom_git_fr/vincent-zero.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Vincent",
+            "team": "shadow",
+            "image": "custom_git_fr/vincent.webp",
+            "imageFallbacks": "custom_git_fr/vincent-zero.jpg,vincent.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Virgilia",
+            "team": "shadow",
+            "image": "custom_git_fr/virgilia.webp",
+            "imageFallbacks": "custom_git_fr/virgilia.jpg",
+            "deck": "custom_git_fr"
+        },
+        {
+            "name": "Vouivre",
+            "team": "shadow",
+            "image": "custom_git_fr/vouivre.webp",
+            "imageFallbacks": "custom_git_fr/vouivre.jpg",
+            "deck": "custom_git_fr"
+        }
+    ],
+    "frakass": [
+        {
+            "name": "Afanny",
+            "team": "neutral",
+            "image": "frakass/afanny.webp",
+            "imageFallbacks": "frakass/afanny.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Ajoel",
+            "team": "neutral",
+            "image": "frakass/ajoel.webp",
+            "imageFallbacks": "frakass/ajoel.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Aquentin",
+            "team": "neutral",
+            "image": "frakass/aquentin.webp",
+            "imageFallbacks": "frakass/aquentin.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Asolene",
+            "team": "neutral",
+            "image": "frakass/asolene.webp",
+            "imageFallbacks": "frakass/asolene.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Athomas",
+            "team": "neutral",
+            "image": "frakass/athomas.webp",
+            "imageFallbacks": "frakass/athomas.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Eantho",
+            "team": "hunter",
+            "image": "frakass/eantho.webp",
+            "imageFallbacks": "frakass/eantho.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Ejulie",
+            "team": "hunter",
+            "image": "frakass/ejulie.webp",
+            "imageFallbacks": "frakass/ejulie.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Etheo",
+            "team": "hunter",
+            "image": "frakass/etheo.webp",
+            "imageFallbacks": "frakass/etheo.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Lilou",
+            "team": "shadow",
+            "image": "frakass/lilou.webp",
+            "imageFallbacks": "frakass/lilou.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Lya",
+            "team": "shadow",
+            "image": "frakass/lya.webp",
+            "imageFallbacks": "frakass/lya.jpg",
+            "deck": "frakass"
+        },
+        {
+            "name": "Mrobs",
+            "team": "shadow",
+            "image": "frakass/mrobs.webp",
+            "imageFallbacks": "frakass/mrobs.jpg",
+            "deck": "frakass"
+        }
+    ]
+}
