@@ -1,10 +1,12 @@
 <script>
     export let players = [];
 </script>
-
 <h2>Players ({players.length})</h2>
-<ul>
+<div class="players">
     {#each players as player}
-    <li>{player.playerId} : {player.name} - {player.faction}</li>
+    <div class="player" id="player-{player.playerId}">
+        <p>{player.playerId} - {player.name} - <span>{player.faction}</span></p>
+        <img style="max-width: 300px" src="" alt="">
+    </div>
     {/each}
-</ul>
+</div>

@@ -53,10 +53,9 @@
             if (data.type === 'card') {
                 card = data.data;
             }
-            // if (data.type === 'reveal') {
-            //     console.log(players)
-            //     console.log(data)
-            // }
+            if (data.type === 'reveal') {
+                handleReveal(data.data)
+            }
         });
 
         connectionToHost.on('close', () => {
@@ -123,8 +122,12 @@
       reveal = card.team
     }
 
-    function handleReveal() {
-
+    function handleReveal(data) {
+        const [revealPlayer] = players.filter(p => p.name === data.player)
+        const textTeam = document.querySelector(`#player-${revealPlayer.playerId} span`)
+        textTeam.classList.add(data.card.team)
+        textTeam.innerText = data.card.team
+        document.querySelector(`#player-${revealPlayer.playerId} img`).src = 'cards/images/' + data.card.imageFallbacks
     }
 </script>
 
@@ -186,16 +189,18 @@
     </div>
 {/if}
 
-<!--{#if card && reveal == null}-->
-<!--    <div>-->
-<!--        <button-->
-<!--        on:click={sendReveal}-->
-<!--        >Se révéler au grand jour</button>-->
-<!--    </div>-->
-<!--{/if}-->
+{#if card && reveal == null}
+    <div>
+        <button
+        on:click={sendReveal}
+        >Se révéler au grand jour</button>
+    </div>
+{/if}
 
 {#if card}
     <div class="limit-width">
+        <hr>
+        <h2>Votre carte :</h2>
         <Card {card} />
     </div>
 {/if}

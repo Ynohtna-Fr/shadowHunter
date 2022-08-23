@@ -68,3 +68,46 @@ button:disabled {
 	color: #666;
 	background-color: #ddd;
 }
+
+.player {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid grey;
+	padding: 1rem;
+}
+
+.players {
+	margin: 0 auto;
+	display: grid;
+	gap: 1rem;
+}
+
+@media (min-width: 600px) {
+	.players {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 900px) {
+	.players {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.shadow {
+	background-color: rgba(182, 13, 13);
+}
+
+.hunter {
+	background-color: rgba(38, 13, 182);
+	color: white;
+}
+
+.neutral {
+	background-color: rgba(245, 193, 22);
+}
+
+.limit-width {
+	max-width: 500px;
+}
