@@ -3,8 +3,7 @@
     import Card from '../display/Card.svelte';
 
     import Peer from 'peerjs';
-    import { afterUpdate } from 'svelte';
-    import { removeNull } from '../utils.js'
+    import { removeNull } from '../utils.js';
 
     export let hostId;
 
@@ -37,11 +36,11 @@
             connectionToHost.send({
                 action: 'name',
                 data: {
-                    name: requestedName
-                }
+                    name: requestedName,
+                },
             });
             connectionToHost.send({
-                request: 'players'
+                request: 'players',
             });
         });
 
@@ -54,7 +53,7 @@
                 card = data.data;
             }
             if (data.type === 'reveal') {
-                handleReveal(data.data)
+                handleReveal(data.data);
             }
         });
 
@@ -65,7 +64,7 @@
             connectionError = 'Connection with host has been closed.';
         });
 
-        connectionToHost.on('error', err => {
+        connectionToHost.on('error', (err) => {
             console.log('connection error', err);
             connectionError = 'Connection error ' + err;
         });
@@ -78,26 +77,26 @@
                 host: urlParams.get('brokingHost'),
                 port: urlParams.get('brokingPort'),
                 path: urlParams.get('brokingPath'),
-                key: urlParams.get('brokingKey')
+                key: urlParams.get('brokingKey'),
             };
             removeNull(peerConfig);
             console.log(peerConfig);
             const newPeer = new Peer(peerConfig);
             newPeer.on('open', () => {
                 resolve(newPeer);
-            })
+            });
             newPeer.on('close', () => {
                 console.log('peer closed');
                 connectionToHost = null;
                 connectedToHostId = null;
                 peer = null;
-            })
+            });
         });
     }
 
     function forceReconnect() {
         connectionToHost.send({
-                action: 'leave'
+            action: 'leave',
         });
         setTimeout(() => {
             if (connectionToHost) {
@@ -111,49 +110,25 @@
     }
 
     function sendReveal() {
-      connectionToHost.send({
-        action: 'reveal',
-        data: {
-          player: requestedName,
-          card: card
-        }
-      })
+        connectionToHost.send({
+            action: 'reveal',
+            data: {
+                player: requestedName,
+                card: card,
+            },
+        });
 
-      reveal = card.team
+        reveal = card.team;
     }
 
     function handleReveal(data) {
-        const [revealPlayer] = players.filter(p => p.name === data.player)
-        const textTeam = document.querySelector(`#player-${revealPlayer.playerId} span`)
-        textTeam.classList.add(data.card.team)
-        textTeam.innerText = data.card.team
-        document.querySelector(`#player-${revealPlayer.playerId} img`).src = 'cards/images/' + data.card.imageFallbacks
+        const [revealPlayer] = players.filter((p) => p.name === data.player);
+        const textTeam = document.querySelector(`#player-${revealPlayer.playerId} span`);
+        textTeam.classList.add(data.card.team);
+        textTeam.innerText = data.card.team;
+        document.querySelector(`#player-${revealPlayer.playerId} img`).src = 'cards/images/' + data.card.imageFallbacks;
     }
 </script>
-
-<style>
-    .horizontal-flex {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .flex-1 {
-        flex: 1;
-    }
-
-    h1 > button {
-        font-size: 0.5em;
-        margin: 0;
-    }
-
-    .error {
-        color: rgb(153, 13, 13);
-    }
-
-    .limit-width {
-        max-width: 500px;
-    }
-</style>
 
 <h1>
     Shadow Hunters
@@ -164,12 +139,9 @@
 
 {#if !connectedToHostId}
     <div>
-        <input bind:value={requestedName}>
-        <button
-            on:click={connect}
-            disabled={connecting}>
-            Pick a name
-        </button>
+        <label for="requestedName">Choisis un pseudo :</label>
+        <input id="requestedName" bind:value={requestedName} />
+        <button on:click={connect} disabled={connecting}>Valider</button>
     </div>
 
     {#if connectingStatus}
@@ -191,16 +163,38 @@
 
 {#if card && reveal == null}
     <div>
-        <button
-        on:click={sendReveal}
-        >Se révéler au grand jour</button>
+        <button on:click={sendReveal}>Se révéler au grand jour</button>
     </div>
 {/if}
 
 {#if card}
     <div class="limit-width">
-        <hr>
+        <hr />
         <h2>Votre carte :</h2>
         <Card {card} />
     </div>
 {/if}
+
+<style>
+    .horizontal-flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-1 {
+        flex: 1;
+    }
+
+    h1 > button {
+        font-size: 0.5em;
+        margin: 0;
+    }
+
+    .error {
+        color: rgb(153, 13, 13);
+    }
+
+    .limit-width {
+        max-width: 400px;
+    }
+</style>

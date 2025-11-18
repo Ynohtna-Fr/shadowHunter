@@ -1,0 +1,9 @@
+﻿-:*.sb-??????~??????
+-:*.tmp
+-:*~.*
+-:bower_components
+-:desktop.ini
+-:node_modules
+-:Thumbs.db
+-:vendor
+-:~*

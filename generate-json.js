@@ -1,12 +1,12 @@
 const imagesFolder = 'public/cards/images'
 const cardsFile = 'public/cards/cards.json'
-const fs = require('fs')
-const path = require('path')
+import fs from 'fs'
+import path from 'path'
 
 const allCards = {
     all: []
 }
-const basePathImages = path.join(__dirname, imagesFolder)
+const basePathImages = path.resolve(imagesFolder)
 
 // each dirs is another deck
 const dirs = fs.readdirSync(basePathImages, { withFileTypes: true }).filter(dirent => dirent.isDirectory()).map(dirent => dirent.name)
@@ -17,7 +17,7 @@ dirs.map(dir => {
     allCards[dir] = images.map(file => {
         const name = file.split('.')[0]
         let team
-        switch (name.substr(0, 1)) {
+        switch (name.substring(0, 1)) {
             case 'a':
             case 'b':
             case 'c':
@@ -49,7 +49,7 @@ dirs.map(dir => {
     allCards['all'].push(...allCards[dir])
 })
 
-fs.writeFileSync(path.join(__dirname, cardsFile), JSON.stringify(allCards, null, 4))
+fs.writeFileSync(path.resolve(cardsFile), JSON.stringify(allCards, null, 4))
 
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1)

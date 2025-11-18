@@ -6,29 +6,23 @@
         card;
         hasError = false;
     }
-
 </script>
 
+{#if !hasError}
+    <img src={'cards/images/' + card.image} alt="Carte" on:error={() => (hasError = true)} />
+{:else}
+    <div
+        class="no-data"
+        class:shadow={card.team === 'shadow'}
+        class:hunter={card.team === 'hunter'}
+        class:neutral={card.team === 'neutral'}
+    >
+        <span>{card.name}</span>
+    </div>
+{/if}
+
 <style>
-    .aspect-ratio-box {
-        height: 0;
-        overflow: hidden;
-        padding-top: calc(1406 / 991 * 100%);
-        position: relative;
-    }
-
-    .aspect-ratio-box-inside {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-
     .no-data {
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
         height: 100%;
     }
@@ -55,25 +49,7 @@
     }
 
     img {
-        max-width: 100%;
+        width: 100%;
         height: 100%;
     }
 </style>
-
-<div class="aspect-ratio-box">
-    <div class="aspect-ratio-box-inside">
-        {#if !hasError}
-            <img
-             style="max-width: 100%; height: auto;"
-             src={'cards/images/' + card.image} alt="card" on:error={() => hasError = true} />
-        {:else}
-            <div
-                class="no-data"
-                class:shadow={card.team === 'shadow'}
-                class:hunter={card.team === 'hunter'}
-                class:neutral={card.team === 'neutral'}>
-                <span>{card.name}</span>
-            </div>
-        {/if}
-    </div>
-</div>
